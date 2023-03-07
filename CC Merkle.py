@@ -114,7 +114,7 @@ def create_range(attesters, provenWeight):
     
     for i in range(len(attesters)):
         attestor_range = (attesters[i], range_index, range_index + attesters[i][1])
-        range_index += attesters[i][1]
+        range_index += attesters[i][1] kakakaka
         
     return attestor_range
 
